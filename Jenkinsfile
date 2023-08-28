@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'sudo apt install python3'
+                sh 'apt install python3'
                 sh 'python manage.py test'
             }
         }
