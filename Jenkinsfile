@@ -22,8 +22,8 @@ pipeline {
             steps {
                 withCredentials([string(credentialsId: 'docker-hub-credentials', variable: 'DOCKER_CREDS')]) {
                     sh 'docker login -u $DOCKER_CREDS_USR -p $DOCKER_CREDS_PSW'
-                    sh 'docker tag openchat:latest your-docker-repo/openchat:latest'
-                    sh 'docker push your-docker-repo/openchat:latest'
+                    sh 'docker tag openchat:latest chekitsharma/openchat:latest'
+                    sh 'docker push chekitsharma/openchat:latest'
                 }
             }
         }
