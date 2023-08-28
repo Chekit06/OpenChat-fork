@@ -37,6 +37,9 @@ Steps I followed for the Assignment "DevOps - Implementing Multi-Tenancy in Open
 ![10](https://github.com/Chekit06/test/assets/89459299/622ca20b-ec8e-4a45-8674-d9a8d3769a78)
 
 
-Build Error because I'm not familiar with "Implemententing Multi-Tenancy using Django's Database Schemas"
+Build Error because I'm not familiar with "Implemententing Multi-Tenancy using Django's Database Schemas".
+Because of the error i could'nt perform further steps.
+
+
 But I had to try it because it was part of the Assignment. 
 Thanks you for this Assignment.
